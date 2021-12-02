@@ -22,5 +22,8 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 git clone https://github.com/Zxilly/UA2F.git package/UA2F
 git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
 
+# BitSrunLoginGo_Openwrt
+git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt package/BitSrunLoginGo_Openwrt
+
 # 自定义添加插件
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
