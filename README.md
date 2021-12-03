@@ -1,4 +1,5 @@
 ## 支持编译设备有：x86-64、k2p、Mi-Nano、Mi_4C
+### 其它设备可以自己添加
 ### k2p插件没有配置，使用默认配置
 ##### [中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 ##### Credits
