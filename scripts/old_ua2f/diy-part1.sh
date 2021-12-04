@@ -26,6 +26,3 @@ git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
 # BitSrunLoginGo
 git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt package/BitSrunLoginGo_Openwrt
 
-# fros固件openwrt框架源码，通过该源码编译出来的固件可以安装应用过滤、上网审计、上网认证、游戏管控等fros插件
-git clone https://github.com/destan19/openfros.git
-
