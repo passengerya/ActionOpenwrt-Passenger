@@ -60,21 +60,6 @@ uci commit luci
 exit 0
 EOF
 
-# Modify default banner
-echo 'Modify default banner...'
-echo "                                                               " >package/base-files/files/etc/banner
-echo " ██████╗ ██████╗ ███████╗███╗   ██╗██╗    ██╗██████╗ ████████╗ " >>package/base-files/files/etc/banner
-echo "██╔═══██╗██╔══██╗██╔════╝████╗  ██║██║    ██║██╔══██╗╚══██╔══╝ " >>package/base-files/files/etc/banner
-echo "██║   ██║██████╔╝█████╗  ██╔██╗ ██║██║ █╗ ██║██████╔╝   ██║    " >>package/base-files/files/etc/banner
-echo "██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║██║███╗██║██╔══██╗   ██║    " >>package/base-files/files/etc/banner
-echo "╚██████╔╝██║     ███████╗██║ ╚████║╚███╔███╔╝██║  ██║   ██║    " >>package/base-files/files/etc/banner
-echo " ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    " >>package/base-files/files/etc/banner
-echo " ------------------------------------------------------------- " >>package/base-files/files/etc/banner
-echo " %D %C ${build_date} @passenger                                    " >>package/base-files/files/etc/banner
-echo " $1                                                            " >>package/base-files/files/etc/banner
-echo " ------------------------------------------------------------- " >>package/base-files/files/etc/banner
-echo "   
-
 ############################################################################################################
 ###############################<For Campus Internet>##########################################################
 ############################################################################################################
