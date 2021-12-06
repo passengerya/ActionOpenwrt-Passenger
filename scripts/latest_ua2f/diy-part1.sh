@@ -25,4 +25,4 @@ git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
 # BitSrunLoginGo_Openwrt
 git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt package/BitSrunLoginGo_Openwrt
 # 克隆老竭力的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git 
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/argon
