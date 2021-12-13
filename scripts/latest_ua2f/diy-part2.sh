@@ -64,7 +64,7 @@ EOF
 ############################################################################################################
 
 # 修改UA2F为开机自启
-sed -i 's/option enabled '0'/option enabled '1'/g' package/UA2F/files/ua2f.config
+# sed -i 's/option enabled '0'/option enabled '1'/g' package/UA2F/files/ua2f.config
 
 # UA2F内核配置加入CONFIG_NETFILTER_NETLINK_GLUE_CT
 target=$(grep "^CONFIG_TARGET" .config --max-count=1 | awk -F "=" '{print $1}' | awk -F "_" '{print $3}')
