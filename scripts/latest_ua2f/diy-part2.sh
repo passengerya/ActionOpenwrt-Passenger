@@ -72,3 +72,8 @@ for configFile in $(ls target/linux/$target/config*)
 do
     echo -e "\nCONFIG_NETFILTER_NETLINK_GLUE_CT=y" >> $configFile
 done
+
+
+rm -rf ./feeds/packages/utils/runc/Makefile
+
+svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile ./feeds/packages/utils/runc/Makefile
