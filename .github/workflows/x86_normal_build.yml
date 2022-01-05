@@ -42,7 +42,7 @@ env:
 
   FEEDS_CONF: feeds.conf.default
 
-  CONFIG_FILE: configs/ua2f/x86.config
+  CONFIG_FILE: configs/normal/x86.config
 
   DIY_P1_SH: scripts/normal/diy-part1.sh
 
