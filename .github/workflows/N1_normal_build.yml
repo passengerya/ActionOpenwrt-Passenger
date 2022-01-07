@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: MiNano_old_ua2f_build
+name: N1_normal_build
 
 on:
   repository_dispatch:
