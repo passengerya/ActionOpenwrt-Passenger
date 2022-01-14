@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Mi_4C_normal_build
+name: AMi_4C_normal_build
 
 on:
   repository_dispatch:
