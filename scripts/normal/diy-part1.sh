@@ -16,3 +16,8 @@
 # Add a feed source
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+
+# 克隆老竭力的argon主题
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/argon
+# 克隆rosy主题
+https://github.com/rosywrt/luci-theme-rosy.git
