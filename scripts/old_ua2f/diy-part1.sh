@@ -30,3 +30,5 @@ git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt package/BitSr
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/argon
 # 克隆rosy主题
 https://github.com/rosywrt/luci-theme-rosy.git
+# 拉取easyupgrade插件（利用ActionOpenwrt在线编译来在线升级）
+svn co https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-easyupdate
