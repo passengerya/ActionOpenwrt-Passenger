@@ -23,9 +23,9 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: configs/Mi_4C.config
-  DIY_P1_SH: scripts/old_ua2f/diy-part1.sh
-  DIY_P2_SH: scripts/old_ua2f/diy-part2.sh
+  CONFIG_FILE: configs/normal/Mi_4C.config
+  DIY_P1_SH: scripts/normal/diy-part1.sh
+  DIY_P2_SH: scripts/normal/diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
