@@ -23,3 +23,5 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 https://github.com/rosywrt/luci-theme-rosy.git package/rosy
 # 拉取easyupgrade插件（利用ActionOpenwrt在线编译来在线升级）
 svn co https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-easyupdate package/easyupgrade
+# 拉取主题neobird
+git clone https://github.com/thinktip/luci-theme-neobird.git  package/neobird
