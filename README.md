@@ -1,4 +1,4 @@
-## 支持编译设备有：x86-64、k2p、Mi-Nano、Mi_4C
+## 支持编译设备有：x86-64、Mi-Nano
 ### 其它设备可以自己添加
 > [esayupgrade插件使用](https://github.com/sundaqiang/openwrt-packages)
 ##### [中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
